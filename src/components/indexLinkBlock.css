@@ -1,0 +1,9 @@
+/* Default stylong for navigation card content */
+.index-link-block-content {
+    background-color: rgba(233, 30, 99, 0.15);
+}
+
+/* Hover effect when user moves mouse over navigation cards */
+.index-link-block-content:hover {
+    background-color: rgba(233, 30, 99, 0.25);
+}

@@ -1,0 +1,30 @@
+/* Styling for track components - keeping for potential future use */
+.track {
+  z-index: 1;
+}
+
+/* Image wrapper opacity effects */
+.track > .image-wrapper {
+  opacity: 0.35;
+  transition: opacity 0.4s;
+}
+
+.track:hover > .image-wrapper {
+  opacity: 1;
+}
+
+/* Track data blend mode effects - pink theme compatible */
+.track > div > .track-datum {
+  transition: mix-blend-mode 0.4s;
+}
+
+.track:hover > div > .track-datum {
+  mix-blend-mode: exclusion;
+}
+
+/* Accessibility - hides animations for users who prefer reduced motion */
+@media screen and (prefers-reduced-motion: reduce) {
+  #svg {
+    display: none !important;
+  }
+}

@@ -1,0 +1,32 @@
+/* Styling for the main home link (site name/logo) in the header */
+.home-link {
+  display: flex; /* Uses flexbox layout for the home link */
+  flex: 0.4 1 0%; /* Takes up 40% of available space, can grow and shrink */
+  font-size: 30px; /* Large font size for prominence */
+  font-weight: 600; /* Semi-bold font weight */
+  text-decoration: none; /* Removes default underline from link */
+  color: #e91e63; /* CHANGED: Pink color instead of teal for baby pink theme */
+}
+
+/* Hover effect for home link when user moves mouse over it */
+.home-link:hover {
+  text-decoration: underline; /* Adds underline when hovering */
+  text-decoration-thickness: 2px; /* Makes underline 2 pixels thick */
+  text-underline-offset: 2px; /* Adds 2 pixels space between text and underline */
+}
+
+/* Styling for navigation links in the header menu */
+.nav-link {
+  font-size: 18px; /* Medium font size for navigation items */
+  padding-left: 8px; /* Left padding for spacing between links */
+  padding-right: 8px; /* Right padding for spacing between links */
+  color: #e91e63; /* CHANGED: Pink color instead of teal to match baby pink theme */
+  text-decoration: none; /* Removes default underline from links */
+}
+
+/* Hover effect for navigation links when user moves mouse over them */
+.nav-link:hover {
+  text-decoration: underline; /* Adds underline when hovering */
+  text-decoration-thickness: 1px; /* Makes underline 1 pixel thick */
+  text-underline-offset: 1px; /* Adds 1 pixel space between text and underline */
+}

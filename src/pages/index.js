@@ -53,14 +53,11 @@ const IndexPage = () => {
           <IndexLinkBlock to="/contact/" text="Contact" />
           <IndexLinkBlock to="/professional" text="Professional Skills and Experience" />
         </IndexLinkBlockSet>
-
-        style={{ display: 'none' }}
-        rel="me"
-        href="https://mastodon.social/@heyiamsra"
       </Layout>
     </>
   )
 }
+export default IndexPage;
 
 
 
